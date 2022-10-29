@@ -4,9 +4,6 @@ on:
   push:
     branches:
     - master
-    paths:
-    - 'src/**'
-    - 'pom.xml'
   pull_request:
     paths:
     - '.github/workflows/**'
